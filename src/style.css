@@ -1,1 +1,92 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-image: linear-gradient(
+      rgba(255, 255, 255, 0.5),
+      rgba(255, 255, 255, 0.5)
+    ),
+    url("images/cake.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+}
 
+header {
+  margin-bottom: 30px;
+}
+
+h1 {
+  font-weight: 800;
+  font-size: 36px;
+  line-height: 1.5;
+  color: #272004;
+  text-align: center;
+}
+
+form {
+  padding: 30px;
+  background-color: #f9f7fe;
+  border-radius: 10px;
+  display: flex;
+  box-shadow: 0px 20px 60px rgba(65, 50, 100, 0.08);
+  margin-bottom: 30px;
+}
+
+footer {
+  text-align: center;
+  font-size: 13px;
+  margin-top: 30px;
+}
+
+a {
+  color: #e26c27;
+}
+
+.container {
+  margin: 120px auto;
+  max-width: 600px;
+}
+
+.instructions {
+  padding: 16px;
+  border: 1px solid rgba(39, 33, 66, 0.5);
+  width: 80%;
+  border-radius: 50px;
+  line-height: 20px;
+  font-size: 16px;
+  color: #272004;
+}
+
+.submit-button {
+  margin-left: 10px;
+  /* background-color: #885df1; */
+  background-color: #e26c27;
+  border: none;
+  border-radius: 50px;
+  color: #f9f7fe;
+  padding: 14px 24px;
+  width: 150px;
+  font-size: 16px;
+}
+
+.recipe {
+  font-size: 16px;
+  background-color: #f9f7fe;
+  padding: 20px;
+  line-height: 1.5;
+  border-left: 3px solid #e26c27;
+  box-shadow: 0px 20px 60px rgba(39, 33, 66, 0.03);
+}
+
+@media screen and (max-width: 768px) {
+  h1 {
+    font-size: 26px;
+  }
+
+  form {
+    padding: 15px;
+  }
+
+  .container {
+    min-width: 200px;
+  }
+}
