@@ -68,12 +68,16 @@ a {
 }
 
 .recipe {
-  font-size: 16px;
+  font-size: 18px;
   background-color: #f9f7fe;
   padding: 20px;
   line-height: 1.5;
   border-left: 3px solid #e26c27;
   box-shadow: 0px 20px 60px rgba(39, 33, 66, 0.03);
+}
+
+.recipe strong {
+  color: #e26c27;
 }
 
 @media screen and (max-width: 768px) {
