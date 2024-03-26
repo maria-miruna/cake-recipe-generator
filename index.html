@@ -7,6 +7,7 @@
       name="description"
       content="Explore a world of delectable cakes with our AI recipe generator. Crafted with precision and creativity, our intuitive platform guides you to perfect results every time. Elevate your baking experience effortlessly."
     />
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
     <link rel="stylesheet" href="src/style.css" />
     <title>AI Cake Recipe Generator</title>
   </head>
@@ -16,7 +17,7 @@
         <h1>Sweet Bytes: Exploring AI-Generated Cake Recipes</h1>
       </header>
       <main>
-        <form>
+        <form id="cake-recipe-generator-form">
           <input
             type="text"
             placeholder="Enter your desired ingredients or preferences here:"
@@ -27,7 +28,7 @@
           />
           <input type="submit" class="submit-button" />
         </form>
-        <div class="recipe"></div>
+        <div class="recipe" id="recipe"></div>
       </main>
       <footer>
         This AI project was coded by

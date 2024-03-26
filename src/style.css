@@ -58,7 +58,6 @@ a {
 
 .submit-button {
   margin-left: 10px;
-  /* background-color: #885df1; */
   background-color: #e26c27;
   border: none;
   border-radius: 50px;
@@ -81,12 +80,26 @@ a {
   h1 {
     font-size: 26px;
   }
-
   form {
     padding: 15px;
   }
-
+  footer {
+    font-size: 11px;
+  }
   .container {
     min-width: 200px;
+  }
+  .submit-button {
+    font-size: 14px;
+    padding: 7px 12px;
+  }
+  .instructions {
+    padding: 10px;
+    width: 60%;
+    line-height: 10px;
+    font-size: 14px;
+  }
+  .recipe {
+    font-size: 14px;
   }
 }
