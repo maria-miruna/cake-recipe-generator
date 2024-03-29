@@ -81,7 +81,6 @@ a {
 .recipe {
   font-size: 18px;
   background-color: #f9f7fe;
-  /* background-color: rgba(255, 255, 255, 0.5); */
   padding: 20px;
   line-height: 1.5;
   border-left: 3px solid #e26c27;
@@ -125,9 +124,6 @@ a {
   }
   form {
     padding: 15px;
-  }
-  footer {
-    font-size: 11px;
   }
   .container {
     min-width: 200px;
